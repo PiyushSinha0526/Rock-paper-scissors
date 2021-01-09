@@ -32,6 +32,9 @@ export function removeAnimation() {
     child.children[0].src = `./img/1.png`;
     child.classList.remove("animation-box");
   });
+
+  void display.children[0].offsetWidth;
+  void display.children[1].offsetWidth;
 }
 
 // adding score to the dom
